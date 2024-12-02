@@ -24,7 +24,7 @@ body {
     padding: 10px 40px; /* primeiro é o tamanho verticalmente e o segundo horizontal */
     font-size: 18px;
     font-weight: 600;
-    background-color: #1a3bce;
+    background-color: #1aa6dd;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -34,17 +34,13 @@ body {
     padding: 10px 40px; /* primeiro é o tamanho verticalmente e o segundo horizontal */
     font-size: 18px;
     font-weight: 600;
-    background-color: #1a3bce;
+    background-color: #1aa6dd;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
     transition: .2s;
 }
 
-.logo-footer img {
-    
-
-}
 h2.titulo {
     color: #fff;
     font-size: 38px;
@@ -52,12 +48,12 @@ h2.titulo {
 }
 
 h2.titulo span { /*tag span pode ser colocado tanto HTML quanto aqui, para colocar uma cor especifica */
-    color: #1a3bce;
+    color: #1aa6dd;
 }
 
 button:hover,
 form .btn-enviar input:hover {
-    box-shadow: 0px 0px 8px #1a3bce;
+    box-shadow: 0px 0px 8px #1aa6dd;
     transform: scale(1.05);
 }
 
@@ -100,7 +96,7 @@ header nav.menu-desktop ul li {
 }
 
 .btn-abrir-menu i{
-    color: #1a3bce;
+    color: #1aa6dd;
     font-size: 40px;
 }
 
@@ -130,7 +126,7 @@ header nav.menu-desktop ul li {
 }
 
 .menu-mobile .btn-fechar i{
-    color: #1a3bce;
+    color: #1aa6dd;
     font-size: 30px;
 }
 
@@ -147,7 +143,7 @@ header nav.menu-desktop ul li {
 }   
 
 .menu-mobile nav ul li a:hover{
-    background-color: #1a3bce;
+    background-color: #1aa6dd;
     color: #000;
 }
 
@@ -180,7 +176,7 @@ section.topo-do-site .flex {
 }
 
 .topo-do-site .txt-topo-site h1 span {
-    color: #1a3bce;
+    color: #1aa6dd;
 }
 
 .topo-do-site .txt-topo-site p {
@@ -228,7 +224,7 @@ section.especiliadades .flex {
 
 .especiliadades .especialidades-box i {
     font-size: 70px;
-    color: #1a3bce;
+    color: #1aa6dd;
 }
 
 .especiliadades .especialidades-box h3 {
@@ -257,7 +253,7 @@ section.sobre .flex {
 }
 
 .sobre .txt-sobre h2 span {
-    color: #1a3bce;
+    color: #1aa6dd;
     display: block;
 }
 
@@ -271,7 +267,7 @@ section.sobre .flex {
     height: 60px;
     border-radius: 50%;
     border: none;
-    background-color: #1a3bce;
+    background-color: #1aa6dd;
     font-size: 22px;
     cursor: pointer;
     margin: 0 5px;
@@ -365,7 +361,7 @@ form .btn-enviar {
 
 form .btn-enviar input {
     width: 120px;
-    background-color: #1a3bce;
+    background-color: #1aa6dd;
     color: #000;
     font-weight: 700;
     cursor: pointer;
@@ -388,11 +384,11 @@ footer .line-footer {
 }
 
 .borda {
-    border-top: 2px solid #1a3bce;
+    border-top: 2px solid #1aa6dd;
 }
 
 footer .line-footer p i {
-    color: #1a3bce;
+    color: #1aa6dd;
     font-size: 22px;
 }
 
