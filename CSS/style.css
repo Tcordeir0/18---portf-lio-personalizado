@@ -41,6 +41,10 @@ body {
     transition: .2s;
 }
 
+.logo-footer img {
+    
+
+}
 h2.titulo {
     color: #fff;
     font-size: 38px;
@@ -285,7 +289,7 @@ section.portfolio .flex {
     margin-top: 60px;
 }
 
-.img-port {
+.img-port { /*imagens abaixo do "meu portifólio" */
     width: 360px;
     height: 460px;
     background-size: cover;
@@ -323,7 +327,7 @@ section.portfolio .flex {
 }
 
 /* ESTILO DO FORMULÁRIO DE CONTATO */
-section.formulario {
+section.formulario { /* Distância "fala comigo" é de 80px das barras transparentes */
     padding: 80px 4%;
 }
 
