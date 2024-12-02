@@ -12,7 +12,7 @@ body {
 }
 
 .interface {
-    max-width: 2560px; /*Tamanho da resolução do site */
+    max-width: 1750px; /*Tamanho da resolução do site */
     margin: 0 auto;
 }
 
