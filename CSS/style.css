@@ -20,11 +20,12 @@ body {
     display: flex;
 }
 
-.btn-projetos button {
+.btn-projetos button { /* botão de Meuis projetos */
     padding: 10px 40px; /* primeiro é o tamanho verticalmente e o segundo horizontal */
     font-size: 18px;
     font-weight: 600;
     background-color: #1aa6dd;
+    color: black;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -35,6 +36,7 @@ body {
     font-size: 18px;
     font-weight: 600;
     background-color: #1aa6dd;
+    color: black;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -120,6 +122,14 @@ header nav.menu-desktop ul li {
     display: block;
 }
 
+.menu-mobile .btn-projetos{
+    padding: 20px 5%;
+}
+
+.menu-mobile .btn-projetos i{
+    color: #000000;
+    font-size: 30px;
+}
 
 .menu-mobile .btn-fechar{
     padding: 20px 5%;
@@ -329,14 +339,27 @@ section.formulario-Final{ /* Distância "fala comigo" é de 80px das barras tran
 }
 
 form {
-    width: 100%;
-    max-width: 30rem;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+    
 }
 
- label, /* não faz sentido o formulário não ficar reto, pqp */
+ label, /* o que faz o formulário ficar reto */
  input,
  textarea{
-   display: block;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;    
+    display: block;
+
 }
  
  input,
