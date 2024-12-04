@@ -144,6 +144,10 @@ header nav.menu-desktop ul li {
     text-align: center;
 }
 
+.menu-mobile .btn-enviar {
+    text-align: center;
+}
+
 .menu-mobile nav ul li a{
     color: #fff;
     font-size: 20px;
