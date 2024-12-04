@@ -92,18 +92,13 @@ header nav.menu-desktop ul li {
 }
 
 /* ESTILO DO MENU MOBILE */
-
-.btn-abrir-menu{
-    display: none;
-}
-
 .btn-abrir-menu i{
     color: #1aa6dd;
     font-size: 40px;
 }
 
 .menu-mobile{
-    background-color: #000;
+    background-color: #000000;
     height: 100vh;
     position: fixed;
     top: 0;
@@ -136,12 +131,12 @@ header nav.menu-desktop ul li {
 }
 
 .menu-mobile .btn-fechar i{
-    color: #000000;
+    color: #1aa6dd;
     font-size: 30px;
 }
 
 .menu-mobile nav ul{
-    text-align: center;
+    text-align: right;
 }
 
 .menu-mobile .btn-enviar {
@@ -523,4 +518,18 @@ footer .line-footer p a {
     footer .line-footer {
         text-align: center;
     }
+}
+/*esse código foi para as 3 barras do mob aparecer apenas para o mobile */
+@media screen and (min-width: 1021px) {
+
+    .btn-abrir-menu,
+
+    .menu-mobile,
+
+    .overlay-menu {
+
+        display: none;
+
+    }
+
 }
