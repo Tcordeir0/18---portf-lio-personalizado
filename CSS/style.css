@@ -400,6 +400,7 @@ form {
     font-weight: 700;
     cursor: pointer;
     transition: .2s;
+    justify-content: center;
 }
 
 /* ESTILO DO RODAPÉ */
